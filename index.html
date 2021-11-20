@@ -1,5 +1,19 @@
-Vuja de Tech: Tomorrow's future <br>
-... yesterday!
-<br><br>
-
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hank Igoe's github page</title>
+  </head>
+  <body>
+    <div id="elm-app"></div>
+    <script src="elm.js"></script>
+    <script>
+      const elmDiv = document.querySelector('#elm-app');
+      if (elmDiv) {
+        var myApp = Elm.Main.embed(elmDiv);
+      }
+    </script>
+  </body>
+</html>
